@@ -1,3 +1,12 @@
+" DEPS
+" install pathogen
+" mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+" curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+"
+" install github color theme
+" cd ~/.vim/bundle
+" git clone git@github.com:endel/vim-github-colorscheme.git
+"
 " adds pathogen init
 execute pathogen#infect()
 
