@@ -6,6 +6,7 @@ ssh-add ~/.ssh/id_rsa
 # install pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
   curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+ln .vimrc ~/.vimrc
 # vim bundles
 cd ~/.vim/bundle
 # install github color theme
