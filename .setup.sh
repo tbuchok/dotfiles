@@ -1,3 +1,4 @@
+# first run: `chmod u+x .setup.sh` to execute this script
 # create ssh keys
 ssh-keygen -t rsa -b 4096 -C "tom@buchok.com"
 eval "$(ssh-agent -s)"
