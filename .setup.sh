@@ -1,0 +1,13 @@
+# create ssh keys
+ssh-keygen -t rsa -b 4096 -C "tom@buchok.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+# install pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+  curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+# vim bundles
+cd ~/.vim/bundle
+# install github color theme
+git clone https://github.com/endel/vim-github-colorscheme.git
+# install jade syntax
+git clone https://github.com/digitaltoad/vim-jade.git
