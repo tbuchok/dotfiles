@@ -13,5 +13,7 @@ cd ~/.vim/bundle
 git clone https://github.com/endel/vim-github-colorscheme.git
 # install jade syntax
 git clone https://github.com/digitaltoad/vim-jade.git
+touch ~/.vimrc
 ln .vimrc ~/.vimrc
+touch ~/.tmux.conf
 ln .tmux.conf ~/.tmux.conf
